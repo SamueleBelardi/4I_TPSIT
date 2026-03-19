@@ -1,0 +1,31 @@
+# --- File di sistema macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# --- Compilazione Java (Output) ---
+*.class
+bin/
+out/
+
+# --- Artefatti (se generi archivi) ---
+*.jar
+*.war
+*.ear
+
+# --- Configurazioni IDE (opzionale ma consigliato) ---
+.idea/
+*.iml
+.vscode/
+.metadata/
+.classpath
+.project
+.settings/
